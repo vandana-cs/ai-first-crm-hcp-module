@@ -34,6 +34,44 @@ This is a full-stack AI-powered CRM SaaS application for managing doctor-patient
 - SaaS-style dashboard UI
 - API integration between frontend & backend
 
+```md id="klb6bp"
+## 🤖 LangGraph AI Agent
+
+The application uses a LangGraph-based AI workflow agent to manage HCP interactions intelligently.
+
+### LangGraph Agent Responsibilities
+- Process conversational interaction logs
+- Summarize doctor interactions
+- Extract important medical entities
+- Suggest follow-up actions
+- Maintain interaction workflow state
+
+---
+
+## 🛠️ LangGraph Tools
+
+### 1. Log Interaction Tool
+Captures doctor interaction data, summarizes notes using Groq LLM, and stores interaction history.
+
+### 2. Edit Interaction Tool
+Allows updating or correcting previously logged interaction records.
+
+### 3. Fetch Interaction History Tool
+Retrieves historical doctor interactions for context-aware engagement.
+
+### 4. AI Follow-up Suggestion Tool
+Generates next-best-action recommendations for field representatives.
+
+### 5. Doctor Insight Tool
+Analyzes interaction trends and generates HCP engagement insights.
+
+---
+
+## 🧠 LLM Model Used
+- Groq gemma2-9b-it
+- llama3-8b-8192
+```
+
 ---
 
 ## 🔗 API Endpoints
