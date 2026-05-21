@@ -75,7 +75,7 @@ npm run dev
 
 ## 🌐 Deployment Links
 
-* Frontend (Vercel): https://your-vercel-link.vercel.app
+* Frontend (Vercel): https://ai-first-crm-hcp-module-hv5n.vercel.app/
 * Backend (Render): https://ai-crm-backend-1zaq.onrender.com
 
 ---
